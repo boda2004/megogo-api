@@ -1,18 +1,23 @@
 {
   "name": "megogo-api",
-  "version": "0.0.1",
+  "version": "0.0.0",
+  "homepage": "https://github.com/boda2004/megogo-api",
   "description": "megogo.net api implementation for node.js",
   "main": "dist/index.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test API_URL='https://api.megogo.net/v1' API_PRIVATE_KEY='63ee38849d' API_PUBLIC_KEY='_kodi_j1' mocha --recursive --compilers js:babel-register",
-    "build": "cross-env NODE_ENV=production webpack"
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack"
   },
   "keywords": [
     "megogo",
     "api"
   ],
-  "author": "boda2004@gmail.com",
-  "license": "ISC",
+  "author": "Oleksandr Bodnarashyk <boda2004@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boda2004/megogo-api.git"
+  },
   "devDependencies": {
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
@@ -28,6 +33,7 @@
     "mocha": "^2.5.3",
     "nock": "^8.0.0",
     "path": "^0.12.7",
+    "rimraf": "^2.5.2",
     "sinon": "^1.17.4",
     "webpack": "^1.13.1"
   },

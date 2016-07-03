@@ -13,15 +13,18 @@ let config = {
   cache: DEBUG,
   debug: DEBUG,
   devtool: false,
+  externals: /^[a-z\-0-9]+$/,
   entry: [
     './src/index'
   ],
   output: {
+    libraryTarget: 'umd',
+    library: 'megogo-api',
     path: path.join(__dirname, 'dist'),
     filename: 'index.js'
   },
   resolve: {
-    extensions: ['', '.webpack.js', '.web.js', '.js']
+    extensions: ['', '.webpack.js', '.web.js', '.js', '.json']
   },
   plugins: [
     new webpack.DefinePlugin({
@@ -40,7 +43,8 @@ let config = {
         test: /\.js/,
         loaders: ['babel'],
         exclude: /node_modules/
-      }
+      },
+      {test: /\.json$/, loader: 'json'}
     ]
   }
 }
