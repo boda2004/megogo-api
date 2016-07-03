@@ -1,6 +1,6 @@
 {
   "name": "megogo-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/boda2004/megogo-api",
   "description": "megogo.net api implementation for node.js",
   "main": "dist/index.js",
