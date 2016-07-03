@@ -1,0 +1,912 @@
+{
+    "result": "ok",
+    "data": {
+        "support_info": {
+            "email": "support@megogo.net",
+            "phones": [
+                "0 800 751-234"
+            ]
+        },
+        "order_strategy": "DEPENDENT_SAVING",
+        "categories": [
+            {
+                "id": 16,
+                "title": "Фільми",
+                "path": "films",
+                "genres": [
+                    12,
+                    3,
+                    29,
+                    4,
+                    41,
+                    38,
+                    31,
+                    25,
+                    43,
+                    30,
+                    2,
+                    27,
+                    22,
+                    13,
+                    16,
+                    18,
+                    35,
+                    20,
+                    14,
+                    15,
+                    21
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Серіали",
+                "path": "series",
+                "genres": [
+                    3,
+                    29,
+                    4,
+                    25,
+                    43,
+                    2,
+                    22,
+                    13,
+                    18,
+                    14,
+                    15,
+                    21
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Мультфільми",
+                "path": "mult",
+                "genres": [
+                    38,
+                    43,
+                    2,
+                    84,
+                    83,
+                    18,
+                    174
+                ]
+            },
+            {
+                "id": 9,
+                "title": "Передачі та шоу",
+                "path": "show",
+                "genres": [
+                    103,
+                    45,
+                    721,
+                    48,
+                    35,
+                    21341,
+                    102,
+                    44,
+                    551,
+                    46,
+                    20,
+                    6401,
+                    50,
+                    38
+                ]
+            },
+            {
+                "id": 20,
+                "title": "Відео 3D",
+                "path": "3d",
+                "genres": [
+                    691,
+                    701,
+                    711
+                ]
+            },
+            {
+                "id": 23,
+                "title": "TV",
+                "path": "tv",
+                "genres": [
+                    6401,
+                    1521,
+                    1541,
+                    238,
+                    48,
+                    26881,
+                    301,
+                    1531
+                ]
+            }
+        ],
+        "member_types": [
+            {
+                "type": "ARTIST",
+                "title": "Художник"
+            },
+            {
+                "type": "ASSEMBLY",
+                "title": "Монтаж"
+            },
+            {
+                "type": "COMPOSER",
+                "title": "Композитор"
+            },
+            {
+                "type": "DIRECTOR",
+                "title": "Режисер"
+            },
+            {
+                "type": "OPERATOR",
+                "title": "Оператор"
+            },
+            {
+                "type": "PRODUCER",
+                "title": "Продюсер"
+            },
+            {
+                "type": "ROLE",
+                "title": "Актор"
+            },
+            {
+                "type": "SCENARIO",
+                "title": "Сценарій"
+            }
+        ],
+        "genres": [
+            {
+                "id": 2,
+                "title": "Комедії",
+                "path": "comedy",
+                "images": []
+            },
+            {
+                "id": 3,
+                "title": "Бойовики",
+                "path": "action",
+                "images": []
+            },
+            {
+                "id": 4,
+                "title": "Детективи",
+                "path": "detective",
+                "images": []
+            },
+            {
+                "id": 13,
+                "title": "Мелодрами",
+                "path": "melodrama",
+                "images": []
+            },
+            {
+                "id": 14,
+                "title": "Трилери",
+                "path": "thriller",
+                "images": []
+            },
+            {
+                "id": 15,
+                "title": "Жахи",
+                "path": "horror",
+                "images": []
+            },
+            {
+                "id": 18,
+                "title": "Пригоди",
+                "path": "adventures",
+                "images": []
+            },
+            {
+                "id": 21,
+                "title": "Фантастика",
+                "path": "fiction",
+                "images": []
+            },
+            {
+                "id": 22,
+                "title": "Кримінал",
+                "path": "crime",
+                "images": []
+            },
+            {
+                "id": 25,
+                "title": "Драми",
+                "path": "drama",
+                "images": []
+            },
+            {
+                "id": 29,
+                "title": "Військові",
+                "path": "military",
+                "images": []
+            },
+            {
+                "id": 43,
+                "title": "Зарубіжні",
+                "path": "foreign",
+                "images": []
+            },
+            {
+                "id": 38,
+                "title": "Дитячі",
+                "path": "kids",
+                "images": []
+            },
+            {
+                "id": 83,
+                "title": "Повнометражні",
+                "path": "full-length-cartoons",
+                "images": []
+            },
+            {
+                "id": 84,
+                "title": "Мультсеріали",
+                "path": "cartoon-serial",
+                "images": []
+            },
+            {
+                "id": 174,
+                "title": "Союзмультфільм",
+                "path": "sojuzmultfilm",
+                "images": []
+            },
+            {
+                "id": 20,
+                "title": "Спортивні",
+                "path": "sport-show",
+                "images": []
+            },
+            {
+                "id": 35,
+                "title": "Сімейні",
+                "path": "family",
+                "images": []
+            },
+            {
+                "id": 44,
+                "title": "Кулінарія",
+                "path": "cooking",
+                "images": []
+            },
+            {
+                "id": 45,
+                "title": "Полювання та риболовля",
+                "path": "hunt",
+                "images": []
+            },
+            {
+                "id": 46,
+                "title": "Музичні",
+                "path": "music",
+                "images": []
+            },
+            {
+                "id": 47,
+                "title": "Про здоров'я",
+                "path": "health",
+                "images": []
+            },
+            {
+                "id": 48,
+                "title": "Пізнавальні",
+                "path": "cognitive",
+                "images": [
+                    {
+                        "type": "icon",
+                        "size": "small",
+                        "url": "http://s9.vcdn.biz/static/f/701227391/image.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 50,
+                "title": "Гумористичні",
+                "path": "humor",
+                "images": []
+            },
+            {
+                "id": 102,
+                "title": "Реаліті-шоу",
+                "path": "reality-shows",
+                "images": []
+            },
+            {
+                "id": 103,
+                "title": "Конкурси",
+                "path": "contests",
+                "images": []
+            },
+            {
+                "id": 551,
+                "title": "Ігри",
+                "path": "games",
+                "images": []
+            },
+            {
+                "id": 721,
+                "title": "Мода",
+                "path": "moda",
+                "images": []
+            },
+            {
+                "id": 6401,
+                "title": "Розважальні",
+                "path": "entertaining",
+                "images": [
+                    {
+                        "type": "icon",
+                        "size": "small",
+                        "url": "http://s6.vcdn.biz/static/f/701227461/image.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 21341,
+                "title": "СТБ",
+                "path": "stb",
+                "images": []
+            },
+            {
+                "id": 12,
+                "title": "Арт-хаус",
+                "path": "arthouse",
+                "images": []
+            },
+            {
+                "id": 16,
+                "title": "Мюзикли",
+                "path": "musical",
+                "images": []
+            },
+            {
+                "id": 27,
+                "title": "Короткометражні",
+                "path": "short",
+                "images": []
+            },
+            {
+                "id": 30,
+                "title": "Історичні",
+                "path": "historical",
+                "images": []
+            },
+            {
+                "id": 31,
+                "title": "Документальні",
+                "path": "documentary",
+                "images": []
+            },
+            {
+                "id": 41,
+                "title": "Для дорослих",
+                "path": "adult",
+                "images": []
+            },
+            {
+                "id": 23361,
+                "title": "Анімація",
+                "path": "animation",
+                "images": []
+            },
+            {
+                "id": 691,
+                "title": "Фільми",
+                "path": "film-3d",
+                "images": []
+            },
+            {
+                "id": 701,
+                "title": "Мультфільми у 3D",
+                "path": "cartoon-3d",
+                "images": []
+            },
+            {
+                "id": 711,
+                "title": "Передачі у 3D",
+                "path": "show-3d",
+                "images": []
+            },
+            {
+                "id": 34,
+                "title": "Еротика",
+                "path": "erotic",
+                "images": []
+            },
+            {
+                "id": 238,
+                "title": "Спорт",
+                "path": "sport",
+                "images": [
+                    {
+                        "type": "icon",
+                        "size": "small",
+                        "url": "http://s3.vcdn.biz/static/f/701229331/image.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 301,
+                "title": "Музика",
+                "path": "music",
+                "images": [
+                    {
+                        "type": "icon",
+                        "size": "small",
+                        "url": "http://s5.vcdn.biz/static/f/701227351/image.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 1521,
+                "title": "Новини",
+                "path": "news",
+                "images": [
+                    {
+                        "type": "icon",
+                        "size": "small",
+                        "url": "http://s8.vcdn.biz/static/f/701227381/image.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 1531,
+                "title": "Інші",
+                "path": "other",
+                "images": [
+                    {
+                        "type": "icon",
+                        "size": "small",
+                        "url": "http://s1.vcdn.biz/static/f/701229501/image.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 1541,
+                "title": "Фільми та серіали",
+                "path": "films",
+                "images": [
+                    {
+                        "type": "icon",
+                        "size": "small",
+                        "url": "http://s8.vcdn.biz/static/f/701229481/image.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 26881,
+                "title": "Дитячі",
+                "path": "kids",
+                "images": [
+                    {
+                        "type": "icon",
+                        "size": "small",
+                        "url": "http://s1.vcdn.biz/static/f/701226311/image.jpg"
+                    }
+                ]
+            }
+        ],
+        "video_country_filters": [
+            {
+                "id": 1,
+                "title": "Росія",
+                "code": "ru"
+            },
+            {
+                "id": 2,
+                "title": "Україна",
+                "code": "ua"
+            },
+            {
+                "id": 4,
+                "title": "Австралія",
+                "code": "au"
+            },
+            {
+                "id": 5,
+                "title": "Австрія",
+                "code": "at"
+            },
+            {
+                "id": 14,
+                "title": "Аргентина",
+                "code": "ar"
+            },
+            {
+                "id": 15,
+                "title": "Вірменія",
+                "code": "am"
+            },
+            {
+                "id": 22,
+                "title": "Білорусь",
+                "code": "by"
+            },
+            {
+                "id": 24,
+                "title": "Бельгія",
+                "code": "be"
+            },
+            {
+                "id": 27,
+                "title": "Болгарія",
+                "code": "bg"
+            },
+            {
+                "id": 31,
+                "title": "Бразилія",
+                "code": "br"
+            },
+            {
+                "id": 39,
+                "title": "Великобританія",
+                "code": "gb"
+            },
+            {
+                "id": 40,
+                "title": "Угорщина",
+                "code": "hu"
+            },
+            {
+                "id": 43,
+                "title": "В'єтнам",
+                "code": "vn"
+            },
+            {
+                "id": 53,
+                "title": "Німеччина",
+                "code": "de"
+            },
+            {
+                "id": 57,
+                "title": "Гонконґ",
+                "code": "hk"
+            },
+            {
+                "id": 60,
+                "title": "Греція",
+                "code": "gr"
+            },
+            {
+                "id": 61,
+                "title": "Грузія",
+                "code": "ge"
+            },
+            {
+                "id": 62,
+                "title": "Данія",
+                "code": "dk"
+            },
+            {
+                "id": 70,
+                "title": "Ізраїль",
+                "code": "il"
+            },
+            {
+                "id": 71,
+                "title": "Індія",
+                "code": "in"
+            },
+            {
+                "id": 72,
+                "title": "Індонезія",
+                "code": "id"
+            },
+            {
+                "id": 75,
+                "title": "Іран",
+                "code": "ir"
+            },
+            {
+                "id": 76,
+                "title": "Ірландія",
+                "code": "ie"
+            },
+            {
+                "id": 77,
+                "title": "Ісландія",
+                "code": "is"
+            },
+            {
+                "id": 78,
+                "title": "Іспанія",
+                "code": "es"
+            },
+            {
+                "id": 79,
+                "title": "Італія",
+                "code": "it"
+            },
+            {
+                "id": 82,
+                "title": "Казахстан",
+                "code": "kz"
+            },
+            {
+                "id": 84,
+                "title": "Камерун",
+                "code": "cm"
+            },
+            {
+                "id": 85,
+                "title": "Канада",
+                "code": "ca"
+            },
+            {
+                "id": 88,
+                "title": "Кіпр",
+                "code": "cy"
+            },
+            {
+                "id": 90,
+                "title": "Китай",
+                "code": "cn"
+            },
+            {
+                "id": 91,
+                "title": "Колумбія",
+                "code": "co"
+            },
+            {
+                "id": 95,
+                "title": "Коста-Ріка",
+                "code": "cr"
+            },
+            {
+                "id": 97,
+                "title": "Куба",
+                "code": "cu"
+            },
+            {
+                "id": 102,
+                "title": "Латвія",
+                "code": "lv"
+            },
+            {
+                "id": 107,
+                "title": "Литва",
+                "code": "lt"
+            },
+            {
+                "id": 109,
+                "title": "Люксембурґ",
+                "code": "lu"
+            },
+            {
+                "id": 115,
+                "title": "Малайзія",
+                "code": "my"
+            },
+            {
+                "id": 120,
+                "title": "Мексика",
+                "code": "mx"
+            },
+            {
+                "id": 122,
+                "title": "Молдова",
+                "code": "md"
+            },
+            {
+                "id": 135,
+                "title": "Нова Зеландія",
+                "code": "nz"
+            },
+            {
+                "id": 137,
+                "title": "Норвегія",
+                "code": "no"
+            },
+            {
+                "id": 144,
+                "title": "Параґвай",
+                "code": "py"
+            },
+            {
+                "id": 145,
+                "title": "Перу",
+                "code": "pe"
+            },
+            {
+                "id": 147,
+                "title": "Польща",
+                "code": "pl"
+            },
+            {
+                "id": 148,
+                "title": "Португалія",
+                "code": "pt"
+            },
+            {
+                "id": 152,
+                "title": "Румунія",
+                "code": "ro"
+            },
+            {
+                "id": 153,
+                "title": "США",
+                "code": "us"
+            },
+            {
+                "id": 158,
+                "title": "Саудівська Аравія",
+                "code": "sa"
+            },
+            {
+                "id": 168,
+                "title": "Сербія",
+                "code": "rs"
+            },
+            {
+                "id": 169,
+                "title": "Сінґапур",
+                "code": "sg"
+            },
+            {
+                "id": 179,
+                "title": "Тайвань",
+                "code": "tw"
+            },
+            {
+                "id": 180,
+                "title": "Таїланд",
+                "code": "th"
+            },
+            {
+                "id": 190,
+                "title": "Туреччина",
+                "code": "tr"
+            },
+            {
+                "id": 192,
+                "title": "Узбекистан",
+                "code": "uz"
+            },
+            {
+                "id": 193,
+                "title": "Уруґвай",
+                "code": "uy"
+            },
+            {
+                "id": 197,
+                "title": "Фінляндія",
+                "code": "fi"
+            },
+            {
+                "id": 198,
+                "title": "Франція",
+                "code": "fr"
+            },
+            {
+                "id": 201,
+                "title": "Хорватія",
+                "code": "hr"
+            },
+            {
+                "id": 204,
+                "title": "Чехія",
+                "code": "cz"
+            },
+            {
+                "id": 205,
+                "title": "Чилі",
+                "code": "cl"
+            },
+            {
+                "id": 206,
+                "title": "Швейцарія",
+                "code": "ch"
+            },
+            {
+                "id": 207,
+                "title": "Швеція",
+                "code": "se"
+            },
+            {
+                "id": 212,
+                "title": "Естонія",
+                "code": "ee"
+            },
+            {
+                "id": 215,
+                "title": "Південна Корея",
+                "code": "kr"
+            },
+            {
+                "id": 218,
+                "title": "Японія",
+                "code": "jp"
+            },
+            {
+                "id": 219,
+                "title": "СРСР",
+                "code": "su"
+            },
+            {
+                "id": 578,
+                "title": "Нідерланди",
+                "code": "nl"
+            },
+            {
+                "id": 581,
+                "title": "ОАЕ",
+                "code": "ae"
+            },
+            {
+                "id": 621,
+                "title": "ПАР",
+                "code": "za"
+            }
+        ],
+        "video_year_filters": [
+            {
+                "id": 21,
+                "year_from": 2015,
+                "year_to": 2016,
+                "title": "2015-2016"
+            },
+            {
+                "id": 31,
+                "year_from": 2010,
+                "year_to": 2014,
+                "title": "2010-2014"
+            },
+            {
+                "id": 41,
+                "year_from": 2000,
+                "year_to": 2009,
+                "title": "2000-е"
+            },
+            {
+                "id": 51,
+                "year_from": 1990,
+                "year_to": 1999,
+                "title": "1990-е"
+            },
+            {
+                "id": 61,
+                "year_from": 1980,
+                "year_to": 1989,
+                "title": "1980-е"
+            },
+            {
+                "id": 71,
+                "year_from": 1970,
+                "year_to": 1979,
+                "title": "1970-е"
+            },
+            {
+                "id": 81,
+                "year_to": 1969,
+                "title": "1960-е и раньше"
+            }
+        ],
+        "geo": "ua",
+        "force_update": {
+            "is_update": false
+        },
+        "payment_systems": [
+            "payu"
+        ],
+        "parental_controls_lifetime": 3600,
+        "age_limits": [
+            {
+                "id": 1,
+                "max_age": 6,
+                "title": "до 6 років"
+            },
+            {
+                "id": 2,
+                "max_age": 12,
+                "title": "6-12 років"
+            },
+            {
+                "id": 3,
+                "max_age": 16,
+                "title": "12-16 років"
+            },
+            {
+                "id": 4,
+                "max_age": 18,
+                "title": "16-18 років"
+            }
+        ]
+    }
+}

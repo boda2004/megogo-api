@@ -1,0 +1,19 @@
+{
+    "result": "ok",
+    "data": {
+        "birthday": "",
+        "sex": "unknown",
+        "tokens": {
+            "access_token": "MTA0ODY2MjIxOjE0Njc1NDg2NjU6NGJjMWNhYTA3ZTA0YTA3NzllNTJlZDNkMGJmMjgzNTQ=",
+            "remember_me_token": "MTA0ODY2MjIxOjE0Njc1NDg2NjU6ODkyYjU1Y2U1NmY2Y2RiZjkzZjUyMmMxZGM4ZmU3ZGI="
+        },
+        "avatars": {},
+        "user_id": 104866221,
+        "avatar": "",
+        "email": "boda2004@gmail.com",
+        "nickname": "Guest",
+        "credit_card": "",
+        "card_type": "",
+        "is_autouser": false
+    }
+}
