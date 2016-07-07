@@ -2,3 +2,7 @@ language: node_js
 node_js:
   - "6"
   - "4"
+script:
+  - npm run test:cover
+after_success:
+  - npm run coveralls
