@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "homepage": "https://github.com/boda2004/megogo-api",
   "description": "megogo.net api implementation for node.js",
+  "files": [
+    "./dist"
+  ],
   "main": "dist/index.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test API_URL='https://api.megogo.net/v1' API_PRIVATE_KEY='63ee38849d' API_PUBLIC_KEY='_kodi_j1' mocha --recursive --compilers js:babel-register",
